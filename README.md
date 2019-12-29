@@ -1,0 +1,2 @@
+# RausiPool
+Cardano staking pool
