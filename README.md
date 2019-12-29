@@ -5,7 +5,7 @@
 Please see https://github.com/rausi/RausiPool/wiki
 
 ---
-Below are guide for some script files to help maintain stakepool. Note! You have to modify files to be compatible with your own settings e.g. port number. **Use at your own risk.**
+Below is **guide for script file** to help maintain stakepool. Note! You have to modify file to be compatible with your own settings e.g. port number. **Use at your own risk.**
 
 Cardano/Ada Donation address: _DdzFFzCqrht2jaj8hErzXYir6SMKeAmQKXzmVpoXnahCoJwC3ZmqkznvJ2gyBVVaH1q2PFkixm9JEBRFiprE2oC8pWiaccyxDWTg3Q31_
 
