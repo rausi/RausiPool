@@ -7,9 +7,9 @@ then
 else
     echo "No old log file. Continue"
 fi
-
-echo "Starting node 1st time"
-gnome-terminal --geometry=50x25 -e "./jormungandr --genesis-block-hash $(cat genesis-hash.txt) --config ./itn_rewards_v1-config.yaml --secret ./node_secret.yaml"
+echo "*****Stop script by pressing ctrl+c*****"
+echo "**Starting node 1st time**"
+gnome-terminal --title="jormungandr running" --geometry=90x25 -- /bin/bash -c './jormungandr --genesis-block-hash $(cat genesis-hash.txt) --config ./itn_rewards_v1-config.yaml --secret ./node_secret.yaml'
 restart=0
 i=1
 #loop check 720times = 720*10min=7200min=120h=5d
@@ -28,7 +28,7 @@ do
    sleep 2s
    restart=$((restart+1))
    echo "starting node again. No.time " $restart
-   gnome-terminal --geometry=50x25 -e "./jormungandr --genesis-block-hash $(cat genesis-hash.txt) --config ./itn_rewards_v1-config.yaml --secret ./node_secret.yaml"
+   gnome-terminal --title="jormungandr running" --geometry=90x25 -- /bin/bash -c './jormungandr --genesis-block-hash $(cat genesis-hash.txt) --config ./itn_rewards_v1-config.yaml --secret ./node_secret.yaml'
  else
    echo "stuck_notifier not found. Continue node normally"
  fi
