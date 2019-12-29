@@ -15,7 +15,7 @@ OR delegate ADA to my stakepool (currently Incentivized Testnet phase)
 # jstart_stuck.sh script guide (Ubuntu 18.04.3 LTS)
 **Restart jormungundr if stuck_notifier exists in log file**
 1. mkdir logs to same directory than your jcli and jormungandr
-2. Make sure you have line also output to file in your itn_rewards_v1-config.yaml file<br>
+2. Make sure you have adde also output to file in your itn_rewards_v1-config.yaml file<br>
   2.1. "log": [
     {
       "format": "plain",
@@ -37,7 +37,7 @@ OR delegate ADA to my stakepool (currently Incentivized Testnet phase)
 7. check log file status if needed: cat ./logs/test.log (!Note open new terminal window)
 _If you need to stop script press ctrl+c_
 
-![Distribution](https://github.com/rausi/_LowFeeStake/blob/master/stuck_notifier.PNG)
+![Distribution](https://github.com/rausi/RausiPool/blob/master/stuck_notifier.PNG)
 
 ---
 
