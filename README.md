@@ -37,7 +37,7 @@ OR delegate ADA to my stakepool (currently Incentivized Testnet phase)
 7. check log file status if needed: cat ./logs/test.log (!Note open new terminal window)
 _If you need to stop script press ctrl+c_
 
-![Distribution](https://github.com/rausi/RausiPool/blob/master/stuck_notifier.PNG)
+![Distribution](https://github.com/rausi/RausiPool/blob/master/stuck_notifier.png)
 
 ---
 
