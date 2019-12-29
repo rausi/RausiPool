@@ -1,8 +1,7 @@
 # RausiPool
-Cardano staking pool
 ![Distribution](https://github.com/rausi/RausiPool/blob/master/RausiPool.PNG)
 
-Cardano staking pool information<br>
+**Cardano staking pool information**<br>
 Please see https://github.com/rausi/RausiPool/wiki
 
 ---
