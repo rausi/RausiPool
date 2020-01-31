@@ -5,11 +5,11 @@
 Please see https://github.com/rausi/RausiPool/wiki
 
 ---
-Below is **guide for script file** to help maintain stakepool. Note! You have to modify file to be compatible with your own settings e.g. port number. **Use at your own risk.**
+Below are **guide for script files** to help momitor stakepool. Note! You have to modify files to be compatible with your own settings e.g. port number. **Use at your own risk.**
 
 Cardano/Ada Donation address: _DdzFFzCqrht2jaj8hErzXYir6SMKeAmQKXzmVpoXnahCoJwC3ZmqkznvJ2gyBVVaH1q2PFkixm9JEBRFiprE2oC8pWiaccyxDWTg3Q31_
 
-OR delegate ADA to my stakepool (currently Incentivized Testnet phase)
+OR delegate some ADA to my stakepool (currently Incentivized Testnet phase)
 ***
 # 1. nodestart.sh script guide (Ubuntu 18.04.3 LTS)
 **Script nodestart can be started ssh or ubuntu parameter**<br>
