@@ -1,0 +1,64 @@
+{
+  "log": [
+    {
+      "format": "plain",
+      "level": "warn",
+      "output": "stderr",   
+      #"output":  {"file": "./logs/test.log"},
+    },
+     #{
+      #"output": {
+      #  "file": "./logs/test.log"
+      #},
+      #"level": "info",
+      #"format": "plain",
+    #},
+  ],
+  "storage": "./storage/",
+  "p2p": {
+    "listen_address": "/ip4/0.0.0.0/tcp/3000",
+    "public_address": "/ip4/<your_public_ip>/tcp/3000",
+    #"public_id": 3....................................2, 
+    "max_connections": 512,
+    #"gossip_interval": "20s",
+    "max_unreachable_nodes_to_connect_per_event": 4,
+      "topics_of_interest": {
+      "blocks": "high",
+      "messages": "high"
+    },
+    "trusted_peers": [
+  {
+  # IOHK EU Central - Frankfurt, Germany
+    "address": "/ip4/3.125.75.156/tcp/3000",
+    "id": "22fb117f9f72f38b21bca5c0f069766c0d4327925d967791"
+  },
+  #{
+   # IOHK EU Central - Frankfurt, Germany    
+   # "address": "/ip4/3.124.116.145/tcp/3000",
+   # "id": "99cb10f53185fbef110472d45a36082905ee12df8a049b74"
+  #},
+  #{
+    #USA
+   # "address": "/ip4/54.183.149.167/tcp/3000",
+   # "id": "df02383863ae5e14fea5d51a092585da34e689a73f704613"
+  #},
+  #{
+    #USA
+  #  "address": "/ip4/52.8.15.52/tcp/3000",
+  #  "id": "18bf81a75e5b15a49b843a66f61602e14d4261fb5595b5f5"
+  #},
+  #{
+    #Japan
+   # "address": "/ip4/18.177.78.96/tcp/3000",
+   # "id": "fc89bff08ec4e054b4f03106f5312834abdf2fcb444610e9"
+  #}
+ ],
+  },
+  "rest": {
+    "listen": "127.0.0.1:3100"
+  },
+  "explorer": {
+     "enabled": false
+  },
+ "no_blockchain_updates_warning_interval": "30m",
+}

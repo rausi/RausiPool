@@ -1,0 +1,48 @@
+{
+  "log": [
+    {
+      "format": "plain",
+      "level": "info",
+      "output": "stderr",   
+      #"output":  {"file": "./logs/test.log"},
+    },
+     {
+      "output": {
+        "file": "./logs/test.log"
+      },
+      "format": "plain",
+      "level": "warn",
+    },
+  ],
+  "storage": "./storage/",
+  "p2p": {
+    "listen_address": "/ip4/0.0.0.0/tcp/3000",
+    "public_address": "/ip4/<your_public_ip>/tcp/3000",
+    #"public_id": 3....................................2, 
+    "max_connections": 512,
+    "max_unreachable_nodes_to_connect_per_event": 4,
+      "topics_of_interest": {
+      "blocks": "high",
+      "messages": "high"
+    },
+    "trusted_peers": [
+  {
+  # IOHK EU Central - Frankfurt, Germany
+    "address": "/ip4/3.125.75.156/tcp/3000",
+    "id": "22fb117f9f72f38b21bca5c0f069766c0d4327925d967791"
+  },
+  #{
+   # IOHK EU Central - Frankfurt, Germany    
+   # "address": "/ip4/3.124.116.145/tcp/3000",
+    #"id": "99cb10f53185fbef110472d45a36082905ee12df8a049b74"
+  #},
+ ],
+  },
+  "rest": {
+    "listen": "127.0.0.1:3100"
+  },
+  "explorer": {
+     "enabled": false
+  },
+ "no_blockchain_updates_warning_interval": "30m",
+}
