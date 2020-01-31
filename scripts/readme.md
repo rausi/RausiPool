@@ -10,10 +10,12 @@ Below is **guide for script file** to help maintain stakepool. Note! You have to
 Cardano/Ada Donation address: _DdzFFzCqrht2jaj8hErzXYir6SMKeAmQKXzmVpoXnahCoJwC3ZmqkznvJ2gyBVVaH1q2PFkixm9JEBRFiprE2oC8pWiaccyxDWTg3Q31_
 
 OR delegate ADA to my stakepool (currently Incentivized Testnet phase)
-
+***
+# 1. nodetart.sh script guide (Ubuntu 18.04.3 LTS)
+TBD
 ---
-# jstart_stuck.sh script guide (Ubuntu 18.04.3 LTS)
-**Restart jormungundr if stuck_notifier exists in log file**
+# 2. jstart_stuck.sh script guide (Ubuntu 18.04.3 LTS)
+**Scipt restart jormungundr if stuck_notifier exists in log file**
 1. mkdir logs to same directory than your jcli and jormungandr
 2. Make sure you have added also output to file in your itn_rewards_v1-config.yaml file<br>
   2.1. "log": [
