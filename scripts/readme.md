@@ -11,7 +11,7 @@ Cardano/Ada Donation address: _DdzFFzCqrht2jaj8hErzXYir6SMKeAmQKXzmVpoXnahCoJwC3
 
 OR delegate ADA to my stakepool (currently Incentivized Testnet phase)
 ***
-# 1. nodetart.sh script guide (Ubuntu 18.04.3 LTS)
+# 1. nodestart.sh script guide (Ubuntu 18.04.3 LTS)
 TBD
 ---
 # 2. jstart_stuck.sh script guide (Ubuntu 18.04.3 LTS)
