@@ -30,7 +30,8 @@ OR delegate some ADA to my stakepool (currently Incentivized Testnet phase)
   
 ---
 # 2. jstart_stuck.sh script guide (Ubuntu 18.04.3 LTS)
-**Script jstart_stuck restart jormungundr if stuck_notifier exists in log file**
+**Script jstart_stuck restart jormungundr if stuck_notifier exists in log file**<br>
+**this is older script and it is replaced with newer nodestart script.**<br> 
 1. mkdir logs to same directory than your jcli and jormungandr
 2. Make sure you have added also output to file in your itn_rewards_v1-config.yaml file<br>
   2.1. "log": [
