@@ -12,7 +12,19 @@ Cardano/Ada Donation address: _DdzFFzCqrht2jaj8hErzXYir6SMKeAmQKXzmVpoXnahCoJwC3
 OR delegate ADA to my stakepool (currently Incentivized Testnet phase)
 ***
 # 1. nodestart.sh script guide (Ubuntu 18.04.3 LTS)
-TBD
+**Scipt nodestart can be started ssh or ubuntu parameter**
+1. mkdir logs to same directory than your jcli and jormungandr 
+2. Copy files nodestart.sh, jstartssh.sh, jstartubuntu.sh to same directory than your jcli and jormungandr
+3. Edit files jstartssh.sh and/or jstartubuntu.sh. 
+  3.1 Define POLL_TIME, CONFIG_FILE, SECRET_FILE and PORT.
+4. Edit your config files
+  4.1 if you start script using ubuntu parameter then make sure that you have defined output to file
+  4.2 See config examples ssh-config.yaml and/or ubuntu-config.yaml
+4. Start nodestart script using parameter ssh or ubuntu e.g. ./nodestart.sh ssh or ./nodestart.sh ubuntu
+  4.1 ssh parameter use nohup and jorgumgandr is started backgroud. This can be used with ssh connection eg. using PuTTY.
+  4.2 ubuntu parameter can be used only with GUI.
+  4.3 if you start without parameter then ssh option is used.
+  
 ---
 # 2. jstart_stuck.sh script guide (Ubuntu 18.04.3 LTS)
 **Scipt restart jormungundr if stuck_notifier exists in log file**
