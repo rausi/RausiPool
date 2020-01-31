@@ -1,3 +1,8 @@
+# RausiPools
+![Distribution](https://github.com/rausi/RausiPool/blob/master/RausiPoolNew.png)
+
+**Cardano staking pool information**<br>
+Please see https://github.com/rausi/RausiPool/wiki
 
 ---
 Below is **guide for script file** to help maintain stakepool. Note! You have to modify file to be compatible with your own settings e.g. port number. **Use at your own risk.**
