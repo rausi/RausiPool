@@ -5,4 +5,4 @@
 Please see https://github.com/rausi/RausiPool/wiki
 
 ---
-
+**Pool monitoring scripts files are available under scripts folder**
