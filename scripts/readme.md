@@ -16,16 +16,16 @@ OR delegate some ADA to my stakepool (currently Incentivized Testnet phase)
 **Script restart jormungandr if stuck_notifier existing**<br>
 **Script restart jormungandr if it is not running**<br>
 1. mkdir logs to same directory than your jcli and jormungandr 
-2. Copy files nodestart.sh, jstartssh.sh, jstartubuntu.sh to same directory than your jcli and jormungandr
-3. Edit files jstartssh.sh and/or jstartubuntu.sh. 
-  3.1. Define POLL_TIME, CONFIG_FILE, SECRET_FILE and PORT.
-4. Edit your config files
-  4.1. if you start script using ubuntu parameter then make sure that you have defined output to file in your config file. NOTE ssh parameter do not need output file option. 
-  4.2. See config examples ssh-config.yaml and/or ubuntu-config.yaml
-  4.3. Use parameter no_blockchain_updates_warning_interval to define stuck_notifier time e..g. "no_blockchain_updates_warning_interval": "30m"
-5. Start nodestart script using parameter ssh or ubuntu e.g. ./nodestart.sh ssh or ./nodestart.sh ubuntu
-  5.1 ssh parameter use nohup and jorgumgandr is started backgroud. This can be used with ssh connection eg. using PuTTY.
-  5.2 ubuntu parameter can be used only with Ubuntu GUI. Useful e.g. if you are doing some testing. I'm using log info level for ubuntu parameter and log warn level for ssh parameter. This is reason why 2 different config files.
+2. Copy files **nodestart.sh, jstartssh.sh, jstartubuntu.sh** to same directory than your jcli and jormungandr
+3. Edit files jstartssh.sh and/or jstartubuntu.sh.<br> 
+  3.1. Define **POLL_TIME, CONFIG_FILE, SECRET_FILE and PORT**.
+4. Edit your config files<br>
+  4.1. if you start script using ubuntu parameter then make sure that you have defined output to file in your config file. NOTE ssh parameter do not need output file option.<br> 
+  4.2. See config examples **ssh-config.yaml and/or ubuntu-config.yaml**<br>
+  4.3. Use parameter no_blockchain_updates_warning_interval to define stuck_notifier time e..g. **"no_blockchain_updates_warning_interval": "30m"**
+5. Start nodestart script using parameter ssh or ubuntu e.g. **./nodestart.sh ssh** or **./nodestart.sh ubuntu**<br>
+  5.1 ssh parameter use nohup and jorgumgandr is started backgroud. This can be used with ssh connection eg. using PuTTY.<br>
+  5.2 ubuntu parameter can be used only with Ubuntu GUI. Useful e.g. if you are doing some testing. I'm using log info level for ubuntu parameter and log warn level for ssh parameter. This is reason why 2 different config files.<br>
   5.3 if you start without parameter then ssh option is used.
   
 ---
