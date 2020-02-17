@@ -98,6 +98,7 @@ do
    cat /dev/null > ./logs/stuckmonitor.out
    cat /dev/null > ./logs/test.log
    sleep 2s
+   i=0
    echo ">> DONE"
  fi
  i=$(( i+1 ))
