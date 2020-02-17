@@ -99,6 +99,7 @@ do
    cat /dev/null > ./logs/stuckmonitor.out
    cat /dev/null > ./logs/node.out
    echo ">> DONE"
+   i=0
  fi
  i=$(( i+1 ))
 done
