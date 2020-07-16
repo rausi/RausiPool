@@ -222,9 +222,10 @@ h6 {
 }
 .alt_h4 {
 	font-size: 2.5em;
+        color:#fff;
 	padding:.3em 0;
 	text-align: right;
-	background: -webkit-gradient(linear, left top, right top, color-stop(45%, #51aaff), to(transparent));
+        background: -webkit-gradient(linear, left top, right top, color-stop(45%, #51aaff), to(transparent));
 	background: -webkit-linear-gradient(left, #51aaff 45%, transparent);
 	background: -o-linear-gradient(left, #51aaff 45%, transparent);
 	background: linear-gradient(90deg, #51aaff 45%, transparent);
