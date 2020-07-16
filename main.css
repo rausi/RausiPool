@@ -730,6 +730,7 @@ h6 {
 .specs td {
 	padding: .5em;
 	vertical-align: middle;
+        color: #fff;
 }
 #exchange_list {
 	text-align: center;
