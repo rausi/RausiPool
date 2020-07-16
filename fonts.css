@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Squares';
+    src: url('fonts/TT Squares Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Squares';
+    src: url('fonts/TT Squares Thin Italic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Squares';
+    src: url('fonts/TT Squares Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Squares';
+    src: url('fonts/TT Squares Light italic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Squares';
+    src: url('fonts/TT Squares.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Squares';
+    src: url('fonts/TT Squares Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Squares';
+    src: url('fonts/TT Squares Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Squares';
+    src: url('fonts/TT Squares Bold Italic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Squares';
+    src: url('fonts/TT Squares Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Squares';
+    src: url('fonts/TT Squares Black Italic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Squares Condensed', sans-serif;
+    src: url('fonts/TT-Squares Condensed Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Squares Condensed', sans-serif;
+    src: url('fonts/TT-Squares Condensed Thin italic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Squares Condensed', sans-serif;
+    src: url('fonts/TT-Squares Condensed Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Squares Condensed', sans-serif;
+    src: url('fonts/TT-Squares Condensed Light Italic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Squares Condensed', sans-serif;
+    src: url('fonts/TT-Squares Condensed Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Squares Condensed', sans-serif;
+    src: url('fonts/TT-Squares Condensed Regular Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Squares Condensed', sans-serif;
+    src: url('fonts/TT-Squares Condensed Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Squares Condensed', sans-serif;
+    src: url('fonts/TT-Squares Condensed Bold Italic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Squares Condensed', sans-serif;
+    src: url('fonts/TT-Squares Condensed Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Squares Condensed', sans-serif;
+    src: url('fonts/TT-Squares Condensed Black Italic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
