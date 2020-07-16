@@ -180,7 +180,7 @@ h2 {
 	font-variant: small-caps;
 	font-family: 'Squares Condensed', Squares;
 	letter-spacing: -.03em;
-	margin:-2.25em auto 0 auto;
+	margin:0 auto 0 auto;
 	transition: filter .2s;
 	background:
 		-webkit-linear-gradient(transparent, #51aaff 19%, transparent 19%, #fff0);
