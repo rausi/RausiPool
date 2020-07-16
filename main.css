@@ -686,7 +686,7 @@ h6 {
 .feature p {
 	max-width: 360px;
 	font-size:1.1em;
-	color: #333;
+	color: #fff;
 	transition: all ease 1s;
 	transition-delay: .5s;
 }
