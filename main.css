@@ -195,7 +195,7 @@ h2 {
 h2::before {
 	display: block;
 	content: " ";
-	margin-top:-1.5em;
+	margin-top:1.5em;
 	height: 1.5em;
 	visibility: hidden;
 	pointer-events: none;
