@@ -143,6 +143,12 @@ p {
 	-moz-hyphens: auto;
 	hyphens: auto;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 a {
 	color: var(--secondary-color);
 	text-decoration: none;
