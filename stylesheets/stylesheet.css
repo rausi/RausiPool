@@ -122,8 +122,8 @@ h3 {
 h3::before {
 	display: block;
 	content: " ";
-	margin-top: 1.5em;
-	height: 0.5em;
+	margin-top: 0.5em;
+	height: 1.5em;
 	visibility: hidden;
 	pointer-events: none;
 }
