@@ -411,6 +411,13 @@ Full-Width Styles
   width: 100%;
 }
 
+.center2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 30%;
+}
 
 /*******************************************************************************
 Small Device Styles
