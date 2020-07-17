@@ -390,8 +390,8 @@ Full-Width Styles
 
 #main_content_wrap {
   background: #000000;
-  border-top: 1px solid #111;
-  border-bottom: 1px solid #111;
+  border-top: 5px solid #111;
+  border-bottom: 5px solid #111;
 }
 
 #main_content {
