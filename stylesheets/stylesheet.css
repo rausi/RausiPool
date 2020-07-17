@@ -81,7 +81,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 300%;
+  text-align: center;
+font-size: 300%;
   font-style: italic;
   font-weight: 700;
   text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff
@@ -336,7 +337,7 @@ Full-Width Styles
 #project_title {
   margin: 0;
   color: #fff;
-  font-size: 42px;
+  font-size: 52px;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
 }
@@ -390,8 +391,8 @@ Full-Width Styles
 
 #main_content_wrap {
   background: #000000;
-  border-top: 5px solid #111;
-  border-bottom: 5px solid #111;
+  /border-top: 5px solid #111;/
+  /border-bottom: 5px solid #111;/
 }
 
 #main_content {
