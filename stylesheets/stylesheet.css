@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 300%;
   font-style: italic;
   font-weight: 700;
   text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff
@@ -96,7 +96,7 @@ h2 {
 
 h3 {
   text-align: center;
-	font-size:1.5em;
+	font-size: 200%;
 	color:#fff;
 	font-weight: 400;
 	position: relative;
@@ -121,7 +121,7 @@ h3 {
 
 h3::before {
 	display: block;
-	content: " ";
+	content: "z ";
 	margin-top:1.5em;
 	height: 1.5em;
 	visibility: hidden;
