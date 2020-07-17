@@ -121,9 +121,9 @@ h3 {
 
 h3::before {
 	display: block;
-	content: "z ";
-	margin-top:1.5em;
-	height: 1.5em;
+	content: " ";
+	margin-top: none;
+	height: 2.5em;
 	visibility: hidden;
 	pointer-events: none;
 }
