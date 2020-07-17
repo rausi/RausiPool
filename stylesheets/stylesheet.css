@@ -183,7 +183,7 @@ img {
   margin: 0 auto;
   max-width: 900px;
   padding: 0;
-  /margin: 10px 0 10px 0;/
+  margin: 10px 0 10px 0;
  / border: 1px solid #ebebeb;/
 }
 
@@ -395,7 +395,7 @@ Full-Width Styles
 }
 
 #main_content {
-  padding-top: 40px;
+  padding-top: 10px;
 }
 
 #footer_wrap {
