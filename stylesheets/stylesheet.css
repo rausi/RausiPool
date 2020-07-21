@@ -112,11 +112,11 @@ h3 {
 	transition: filter .2s;
 
     background:
-               -webkit-linear-gradient(transparent, #7f7f7f 19%, transparent 19%, #fff0);
+               -webkit-linear-gradient(transparent, #f2f2f2 19%, transparent 19%, #fff);
 	background:
-		-o-linear-gradient(transparent, #7f7f7f 19%, transparent 19%, #fff0);
+		-o-linear-gradient(transparent, #f2f2f2 19%, transparent 19%, #fff);
 	background:
-		linear-gradient(transparent, #7f7f7f 19%, transparent 19%, #fff0);
+		linear-gradient(transparent, #f2f2f2 19%, transparent 19%, #fff);
 	background-position: 0 1.825em;
 	background-repeat: no-repeat;
 	text-shadow: rgb(85, 85, 85) 3px 0px 0px, rgb(85, 85, 85) 2.83487px 0.981584px 0px, rgb(85, 85, 85) 2.35766px 1.85511px 0px, rgb(85, 85, 85) 1.62091px 2.52441px 0px, rgb(85, 85, 85) 0.705713px 2.91581px 0px, rgb(85, 85, 85) -0.287171px 2.98622px 0px, rgb(85, 85, 85) -1.24844px 2.72789px 0px, rgb(85, 85, 85) -2.07227px 2.16926px 0px, rgb(85, 85, 85) -2.66798px 1.37182px 0px, rgb(85, 85, 85) -2.96998px 0.42336px 0px, rgb(85, 85, 85) -2.94502px -0.571704px 0px, rgb(85, 85, 85) -2.59586px -1.50383px 0px, rgb(85, 85, 85) -1.96093px -2.27041px 0px, rgb(85, 85, 85) -1.11013px -2.78704px 0px, rgb(85, 85, 85) -0.137119px -2.99686px 0px, rgb(85, 85, 85) 0.850987px -2.87677px 0px, rgb(85, 85, 85) 1.74541px -2.43999px 0px, rgb(85, 85, 85) 2.44769px -1.73459px 0px, rgb(85, 85, 85) 2.88051px -0.838247px 0px
@@ -127,7 +127,7 @@ h3::before {
 	display: block;
 	content: " ";
 	margin-top: 0.5em;
-	height: 1.5em;
+	height: 1.2em;
 	visibility: hidden;
 	pointer-events: none;
 }
@@ -148,13 +148,14 @@ p {
   font-size: 18px;
   margin: 10px 0 15px 0;
   color: #fff;
+  text-shadow: 0 0 2px #000, 0 0 2px #000, 0 0 2px #000;
 }
 p2 {
   text-align: center;
   font-size: 24px;
   margin: 10px 0 15px 0;
   color: #fff;
-  text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff
+  text-shadow: -1px 0 #000000, 0 0 6px #fff, 0 0 6px #fff;
 }
 
 footer p {
