@@ -451,7 +451,7 @@ Full-Width Styles
 	line-height: 18px/*1.35em*/;
         border: 1px solid white;
 	display:block;
-	margin: 20px 20px/*1em 1em'/;
+	margin: 20px 20px/*1em 1em*/;
 }
 .specs tr:hover {
 	transform: scale(1.05);
