@@ -454,8 +454,8 @@ Full-Width Styles
 	margin: 20px 20px/*1em 1em*/;
 }
 .specs tr:hover {
-	transform: scale(1.05);
-	box-shadow: 0 0 8px 10px #c2d6d6;
+	transform: scale(1.1);
+	box-shadow: 0 0 16px 11px #c2d6d6;
         /*background:#ffffff !important;*/
 	font-weight: 900;
         color: #000;
