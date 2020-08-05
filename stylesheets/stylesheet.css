@@ -413,7 +413,7 @@ Full-Width Styles
 
 #main_content {
   padding-top: 1px;
-  background: url('../images/blockchain.jpeg')
+  background: url('../images/tausta.jpg')
 }
 
 #footer_wrap {
@@ -431,8 +431,8 @@ Full-Width Styles
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
-  height: 30%;
+  width: 20%;
+  height: 20%;
 }
 #technical_specs {
 	clear:both;
