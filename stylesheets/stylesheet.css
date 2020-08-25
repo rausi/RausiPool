@@ -433,6 +433,13 @@ Full-Width Styles
   width: 20%;
   height: 20%;
 }
+.center3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 30%;
+}
 #technical_specs {
 	clear:both;
 	padding-bottom: 0;
