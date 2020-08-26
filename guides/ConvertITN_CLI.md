@@ -1,7 +1,7 @@
 # 1. Add ITN keys to file (secret and public) if not yet available
 echo "ed25519e_sk1....." > itn.skey
 
-echo "ed25519_pk1....." > itn.skey
+echo "ed25519_pk1....." > itn.vkey
 
 # 2. convert keys
 **secret key**
