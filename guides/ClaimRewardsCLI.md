@@ -25,6 +25,7 @@ or
 cardano-cli shelley query utxo --address addr1rtyulhxxxp7c8tyuiopjdus7fdk9p2twg75c54678znns88cy7fayst6kw6m8jr4hgfqwertcgfkwhtgfn02p8mgzesr567jk --mainnet
 
 ##output looks like this##<br>
+
                            TxHash                                 TxIx        Lovelace
 ----------------------------------------------------------------------------------------
 468dd0d6ca0ea96c882e8b0733c1b74ef6a28548a58c27597d4c12d9004228e     1        2000000000
