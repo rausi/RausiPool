@@ -1,7 +1,9 @@
 # 1.Check rewards from stake address (stake.addr)
 
 cardano-cli shelley query stake-address-info --address $(cat stake.addr) --mainnet
+
 or
+
 cardano-cli shelley query stake-address-info --cardano-mode --address stake1uwedfxxxu5dhwqsr3rtyyxyertyq2vg4wtx3j68u0mpd8gcj39123 --mainnet
 
 ##output looks like this##
@@ -17,7 +19,9 @@ cardano-cli shelley query stake-address-info --cardano-mode --address stake1uwed
 You need pay address (payment.addr) to pay transaction fees + rewards will be moved to this address in this example
 
 cardano-cli shelley query utxo --address $(cat payment.addr) --mainnet
+
 or
+
 cardano-cli shelley query utxo --address addr1rtyulhxxxp7c8tyuiopjdus7fdk9p2twg75c54678znns88cy7fayst6kw6m8jr4hgfqwertcgfkwhtgfn02p8mgzesr567jk --mainnet
 
 ##output looks like this##
@@ -68,7 +72,7 @@ cardano-cli shelley transaction build-raw \
 --withdrawal stake1uwedfxxxu5dhwqsr3rtyyxyertyq2vg4wtx3j68u0mpd8gcj39123+380171658 \
 --out-file rewards.raw
 
-
+# 7. Sign and submit transaction
 cardano-cli shelley transaction sign \
 --tx-body-file rewards.raw \
 --signing-key-file payment.skey \
