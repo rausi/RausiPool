@@ -6,7 +6,7 @@ or
 ```
 cardano-cli shelley query stake-address-info --cardano-mode --address stake1uwedfxxxu5dhwqsr3rtyyxyertyq2vg4wtx3j68u0mpd8gcj39123 --mainnet
 ```
-##output looks like this##<br>
+output looks like this
 ```
 [
     {
