@@ -7,6 +7,7 @@ or
 cardano-cli shelley query stake-address-info --cardano-mode --address stake1uwedfxxxu5dhwqsr3rtyyxyertyq2vg4wtx3j68u0mpd8gcj39123 --mainnet
 
 ##output looks like this##<br>
+```
 [
     {
         "address": "stake1uwedfxxxu5dhwqsr3rtyyxyertyq2vg4wtx3j68u0mpd8gcj39123",
@@ -14,6 +15,7 @@ cardano-cli shelley query stake-address-info --cardano-mode --address stake1uwed
         "rewardAccountBalance": 380171658
     }
 ]
+```
 
 # 2. Get the transaction hash and index of the UTXO to spend
 You need pay address (payment.addr) to pay transaction fees + rewards will be moved to this address in this example
@@ -50,7 +52,9 @@ cardano-cli shelley transaction calculate-min-fee \
 --protocol-params-file protocol.json
 
 ##output looks like this##<br>
+```
 >179141 Lovelace
+```
 
 # 5. Calculate the change to send back to payment.addr
 formula --> UTXO amount - fee + rewards<br> 
@@ -60,8 +64,9 @@ formula --> UTXO amount - fee + rewards<br>
 cardano-cli shelley query tip --mainnet
 
 ##output looks like this##<br>
+```
 "slotNo":6724030
-
+```
 formula --> slotNO + 400 slots<br> 
 6724030+400=6724430
 
