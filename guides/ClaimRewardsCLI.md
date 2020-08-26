@@ -77,6 +77,9 @@ formula --> slotNO + 400 slots<br>
 6724030+400=6724430
 ```
 # 7. Build the transaction
+add send to pay back to tx-out. in this example 1995840198<br>
+add fee 179141 <br>
+add ttl 6724430 <br>
 ```
 cardano-cli shelley transaction build-raw \
 --tx-in 48a3eb92a77a611995076f5b706689119ff69d177e6f465db92c1b94c2fc5b8#0 \
