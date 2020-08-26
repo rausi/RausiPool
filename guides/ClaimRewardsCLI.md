@@ -32,7 +32,9 @@ TxHash                                                              TxIx    Love
 468dd0d6ca0ea96c882e8b0733c1b74ef6a28548a58c27597d4c12d9004228e     1        2000000000
 48a3eb92a77a611995076f5b706689119ff69d177e6f465db92c1b94c2fc5b8     0        1615847681
 ```
-# 3. Create draft transaction. Add stake address+rewards after --withdrawal 
+# 3. Create draft transaction. 
+Add stake address+rewards after --withdrawal <br>
+Make sure you have correct txhash and TxIx in row --tx-in
 ```
 cardano-cli shelley transaction build-raw \
 --tx-in 48a3eb92a77a611995076f5b706689119ff69d177e6f465db92c1b94c2fc5b8#0 \
