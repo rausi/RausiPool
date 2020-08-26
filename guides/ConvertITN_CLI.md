@@ -1,13 +1,14 @@
-# 1. Add ITN keys to file (secret and public)
+# 1. Add ITN keys to file (secret and public) if not yet available
 echo "ed25519e_sk1....." > itn.skey
+
 echo "ed25519_pk1....." > itn.skey
 
 # 2. convert keys
 **secret key**
-If you have entended key "ed25519e_sk1" then use this command
+If you have entended key "ed25519e_sk1..." then use this command (needs cardano-cli version 1.19.0)
 cardano-cli  shelley key convert-itn-extended-key --itn-signing-key-file itn.skey --out-file itn.staking.skey
 
-otherwise use this
+otherwise use this command (ed25519_sk1...)
 cardano-cli  shelley key convert-itn-key --itn-signing-key-file itn.skey --out-file itn.staking.skey
 
 **public key**
