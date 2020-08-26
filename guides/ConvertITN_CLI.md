@@ -17,4 +17,4 @@ shelley key convert-itn-key --itn-verification-key-file itn.vkey --out-file itn.
 shelley stake-address build --staking-verification-key-file itn.staking.vkey --out-file itn_stake.addr --mainnet
 
 # 4. Claim rewards
-Follow guide 
+Follow guide https://github.com/rausi/RausiPool/blob/master/guides/ClaimRewardsCLI.md
