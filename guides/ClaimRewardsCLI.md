@@ -6,7 +6,7 @@ or
 
 cardano-cli shelley query stake-address-info --cardano-mode --address stake1uwedfxxxu5dhwqsr3rtyyxyertyq2vg4wtx3j68u0mpd8gcj39123 --mainnet
 
-##output looks like this##
+##output looks like this##<br>
 [
     {
         "address": "stake1uwedfxxxu5dhwqsr3rtyyxyertyq2vg4wtx3j68u0mpd8gcj39123",
@@ -24,7 +24,7 @@ or
 
 cardano-cli shelley query utxo --address addr1rtyulhxxxp7c8tyuiopjdus7fdk9p2twg75c54678znns88cy7fayst6kw6m8jr4hgfqwertcgfkwhtgfn02p8mgzesr567jk --mainnet
 
-##output looks like this##
+##output looks like this##<br>
                            TxHash                                 TxIx        Lovelace
 ----------------------------------------------------------------------------------------
 468dd0d6ca0ea96c882e8b0733c1b74ef6a28548a58c27597d4c12d9004228e     1        2000000000
@@ -49,18 +49,20 @@ cardano-cli shelley transaction calculate-min-fee \
 --byron-witness-count 0 \
 --protocol-params-file protocol.json
 
-##output looks like this##
+##output looks like this##<br>
 >179141 Lovelace
 
 # 5. Calculate the change to send back to payment.addr
-formula --> UTXO amount - fee + rewards 
+formula --> UTXO amount - fee + rewards<br> 
 1615847681-179141+380171658=1995840198
 
 # 6. Determine the TTL (time to Live) for the transaction
 cardano-cli shelley query tip --mainnet
-##output looks like this##
+
+##output looks like this##<br>
 "slotNo":6724030
-formula --> slotNO + 400 slots 
+
+formula --> slotNO + 400 slots<br> 
 6724030+400=6724430
 
 # 7. Build the transaction
@@ -79,7 +81,6 @@ cardano-cli shelley transaction sign \
 --signing-key-file stake.skey \
 --mainnet \
 --out-file rewards.signed
-
 
 And submit it:
 
