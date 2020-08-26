@@ -1,8 +1,10 @@
 # 1. Add ITN keys to file (secret and public) if not yet available
+```
 echo "ed25519e_sk1....." > itn.skey
-
+```
+```
 echo "ed25519_pk1....." > itn.vkey
-
+```
 # 2. convert itn keys
 **secret key**<br>
 If you have entended key "ed25519e_sk1..." then use this command (needs cardano-cli version 1.19.0)
