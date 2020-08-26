@@ -10,7 +10,7 @@ output looks like this
 ```
 [
     {
-        "address": "stake1uwedfxxxu5dhwqsr3rtyyxyertyq2vg4wtx3j68u0mpd8gcj39123",
+        "address": "stake1uwedfxxxu5dhwqsr3rtyyxyertyq2vg4wtx3j68u0mpd8gcj391sd",
         "delegation": "pool34gh6h526rcp836t6l94zk5rtyulp4tvrq87xlnthzagwjyhzxcv",
         "rewardAccountBalance": 380171658
     }
@@ -33,7 +33,7 @@ TxHash                                                              TxIx    Love
 48a3eb92a77a611995076f5b706689119ff69d177e6f465db92c1b94c2fc5b8     0        1615847681
 ```
 # 3. Create draft transaction. 
-Add stake address+rewards after --withdrawal <br>
+Add stake address+rewards after --withdrawal. rewards = "rewardAccountBalance": 380171658 <br>
 Make sure you have correct txhash and TxIx in row --tx-in
 ```
 cardano-cli shelley transaction build-raw \
@@ -41,7 +41,7 @@ cardano-cli shelley transaction build-raw \
 --tx-out $(cat payment.addr)+0 \
 --ttl 0 \
 --fee 0 \
---withdrawal stake1uwedfxxxu5dhwqsr3rtyyxyertyq2vg4wtx3j68u0mpd8gcj39123+380171658 \
+--withdrawal stake1uwedfxxxu5dhwqsr3rtyyxyertyq2vg4wtx3j68u0mpd8gcj391sd+380171658 \
 --out-file rewards.raw
 ```
 
