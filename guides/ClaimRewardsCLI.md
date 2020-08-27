@@ -1,3 +1,4 @@
+# Guide: How to claim rewards from pool stake address
 # 1.Check rewards from stake address (stake.addr)
 ```
 cardano-cli shelley query stake-address-info --address $(cat stake.addr) --mainnet
