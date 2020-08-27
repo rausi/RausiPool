@@ -26,4 +26,4 @@ cardano-cli shelley stake-address build --staking-verification-key-file itn.stak
 ```
 # 4. Claim rewards
 Follow guide https://github.com/rausi/RausiPool/blob/master/guides/ClaimRewardsCLI.md <br>
-Use itn_stake.addr as your stake address and sign transaction using itn.staking.skey
+Use **itn_stake.addr** as your stake address and sign transaction using **itn.staking.skey**
