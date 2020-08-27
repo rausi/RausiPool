@@ -1,3 +1,4 @@
+# Guide: How to convert ITN keys
 # 1. Add ITN keys to file (secret and public) if not yet available
 ```
 echo "ed25519e_sk1....." > itn.skey
@@ -21,7 +22,7 @@ cardano-cli shelley key convert-itn-key --itn-verification-key-file itn.vkey --o
 ```
 # 3. Create stake address
 ```
-shelley stake-address build --staking-verification-key-file itn.staking.vkey --out-file itn_stake.addr --mainnet
+cardano-cli shelley stake-address build --staking-verification-key-file itn.staking.vkey --out-file itn_stake.addr --mainnet
 ```
 # 4. Claim rewards
 Follow guide https://github.com/rausi/RausiPool/blob/master/guides/ClaimRewardsCLI.md <br>
