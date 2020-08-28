@@ -508,6 +508,7 @@ Full-Width Styles
 	vertical-align: top;
 	margin: 20px/*2em*/;
 	min-width: 300px;
+	height: 300px;
 	transform: scale(.95);
 	transition: all ease .3s;
 	transition-delay: .2s;
