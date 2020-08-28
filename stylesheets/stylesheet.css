@@ -523,7 +523,7 @@ Full-Width Styles
 	font-weight:900;
 }
 .feature:hover {
-	transform: scale(1.2);
+	transform: scale(1.1);
 	box-shadow: 0 0 16px 32px/*1em 1.5em*/ #c2d6d6;
 	/*background: #fff;*/
 }
