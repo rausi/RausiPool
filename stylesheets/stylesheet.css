@@ -440,6 +440,43 @@ Full-Width Styles
   width: 50%;
   height: 50%;
 }
+
+#main_content_wrap_QTUM {
+  background: #000000;
+  /*border-top: 5px solid #111;*/
+  /*border-bottom: 5px solid #111;*/
+}
+
+#main_content_QTUM {
+  padding-top: 1px;
+  background: url('../images/blockchain.jpeg')
+}
+
+#footer_wrap_QTUM {
+  background: #000000;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.center2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 20%;
+}
+.center3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+}
 #technical_specs {
 	clear:both;
 	padding-bottom: 0;
