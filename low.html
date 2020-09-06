@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="LOWPool : Cardano staking pools tickers | LOW |">
+    <meta name="keywords" content="LOWPool, Cardano, ADA, Staking, LOW, Crypto">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="https://rausipool.fi/low" />
+    <meta name="twitter:title" content="Cardano LOWPool" />
+    <meta name="twitter:description" content="LOW | Stable and reliability operation |" />
+    <!-- <meta name="twitter:image" content="https://raw.githubusercontent.com/rausi/RausiPool/gh-pages/images/rausipool.png" /> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <!--  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png"> -->
+    <title>LoWPool</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap_LOW" class="outer">
+        <header class="inner">
+         <!-- <a id="forkme_banner" href="https://github.com/rausi/RausiPool">View on GitHub</a> -->
+
+          <h1 id="project_title_LOW"> Cardano staking pool</h1>
+          <h2 id="project_tagline_LOW">| LOW |</h2>
+          <!-- <img src="images/maisema2.jpg" alt="RausiPool" class="center"> -->
+          
+          <!-- <img src="images/maisema2.jpg" alt="RausiPool" class="center"> 
+
+             <section id="languages"> 
+               <a class="fin_link" href="./suomi.html">FIN &#x1F1EB;&#x1F1EE;</a>
+               <a class="eng_link" href="./index.html">ENG &#x1F1EC;&#x1F1E7;</a>
+              </section> -->
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+<div id="main_content_wrap_LOW" class="outer">
+  <section id="main_content_LOW" class="inner">
+
+
+        <h3>
+ <a id="welcome-to-LOW-pages" class="anchor" href="#welcome-to-LOW-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome</h3>
+ <div style="text-align:center">
+   <br>
+   <p2>LOW | Stable and Reliable Operation |</p2><br>
+   
+	 
+ <h3>
+ <a id="pool-specs" class="anchor" href="#pool-specs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>LOW</h3>       
+	 
+	 <div id="specs_tables">
+                
+		<table class="specs LOW">
+			<tr><td>Ticker</td>				<td>LOW</td></tr>
+			<tr><td>Pool id</td>				<td>a0bfabd15a1e0278e97af96a2b5369183e1aad8301fc6fcd771750e9</td></tr>
+                        <tr><td>Pledge</td>				<td>Not set</td></tr>
+			<tr><td>Fixed fee</td>				<td>340₳ (minimum allowed)</td></tr>
+			<tr><td>% fee</td>				<td>0.9%</td></tr>
+                </table>
+         </div>
+	 
+   <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script>
+    $.getJSON('https://js.adapools.org/pools/a0bfabd15a1e0278e97af96a2b5369183e1aad8301fc6fcd771750e9/summary.json', function(data) { 
+    $.each( data.data, function( i, val ) { 
+		a=new Array('tax_fix','pledge','total_stake');
+		if(parseInt(val) > 100000) val=Math.round(parseInt(val)/1000000);
+		if(i=='blocks_lifetime') val=parseInt(val) + parseInt(data.data.blocks_epoch);
+
+		$('#a0bfabd15a1e0278e97af96a2b5369183e1aad8301fc6fcd771750e9_'+i).html(val).text();   
+     }); 
+		});
+    </script>
+
+                <p>Live Stake: <span id="a0bfabd15a1e0278e97af96a2b5369183e1aad8301fc6fcd771750e9_total_stake"></span><br>
+                Active Stake: <span id="a0bfabd15a1e0278e97af96a2b5369183e1aad8301fc6fcd771750e9_active_stake"></span><br>
+		Last Reward Epoch: <span id="a0bfabd15a1e0278e97af96a2b5369183e1aad8301fc6fcd771750e9_rewards_epoch"></span><br>
+		Blocks Lifetime: <span id="a0bfabd15a1e0278e97af96a2b5369183e1aad8301fc6fcd771750e9_blocks_lifetime"></span><br>
+		Blocks in epoch: <span id="a0bfabd15a1e0278e97af96a2b5369183e1aad8301fc6fcd771750e9_blocks_epoch"></span><br>
+		More info on <a href="https://adapools.org/pool/a0bfabd15a1e0278e97af96a2b5369183e1aad8301fc6fcd771750e9" target="_blank">ADApools.org</a></p><br>
+
+	 
+     
+
+
+
+
+
+ <h3>
+ <a id="Links" class="anchor" href="#Link" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Links</h3>
+ <p2>
+ <ul style="list-style-type:none;">
+ <div style="text-align:center">    
+  <li><a href="https://www.cardano.org/stake-pool-delegation/" target="_blank">Cardano Staking</a></li>
+  <li><a href="https://daedaluswallet.io/" target="_blank">Daedalus Wallet</a></li>
+  <li><a href="https://yoroi-wallet.com/#/" target="_blank">Yoroi Wallet</a></p2></li>
+  <li><a href="https://www.reddit.com/r/cardano/comments/hzhoh6/the_delegation_cycle_when_you_will_be_able_to/" target="_blank">Delegation cycle</a></li>
+ </div>
+ </ul>
+
+ <h3>
+ <a id="contact" class="anchor" href="#contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact</h3>
+ <p2>
+ <ul style="list-style-type:none;">
+ <div style="text-align:center">    
+  <li><a href="mailto:lowpool@protonmail.com">Email</a></p2></li>
+ </div>
+ </ul>
+ <br>
+  
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap_LOW" class="outer">
+      <footer class="inner">
+        <!-- <img src="images/rausipool.jpeg" alt="RausiPool" class="center2"> -->
+        <p style="text-align:center">LOW operated by <a href="https://github.com/rausi">rausi</a></p>
+        <!-- <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p> -->
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
