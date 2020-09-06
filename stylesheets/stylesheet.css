@@ -340,12 +340,25 @@ Full-Width Styles
   border-bottom-right-radius: 2px;
 }
 
-#header_wrap }
-  /*background: #000000;*/
-}
 
 #header_wrap .inner {
   padding: 50px 10px 30px 10px;
+  /*background: url('../images/blockchain.jpeg')*/
+}
+
+#header_wrap_LOW {
+  background: #80b3ff;
+}
+
+#header_wrap_LOW .inner {
+  padding: 50px 10px 30px 10px;
+  background: #80b3ff;
+  /*background: url('../images/blockchain.jpeg')*/
+}
+
+#header_wrap_LOW .outer {
+  padding: 50px 10px 30px 10px;
+  background: #80b3ff;
   /*background: url('../images/blockchain.jpeg')*/
 }
 
@@ -360,6 +373,23 @@ Full-Width Styles
 
 #project_tagline {
   color: #fff;
+  font-size: 34px;
+  font-weight: 300;
+  background: none;
+  text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff
+}
+
+#project_title_LOW {
+  margin: 0;
+  color: #0047b3;
+  font-size: 62px;
+  font-weight: 700;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff
+ /*text-shadow: #111 0px 0px 10px;*/
+}
+
+#project_tagline_LOW {
+  color: #0047b3;
   font-size: 34px;
   font-weight: 300;
   background: none;
@@ -441,18 +471,19 @@ Full-Width Styles
   height: 50%;
 }
 
-#main_content_wrap_QTUM {
-  background: #000000;
+#main_content_wrap_LOW {
+  /*background: #003d99;*/
   /*border-top: 5px solid #111;*/
   /*border-bottom: 5px solid #111;*/
 }
 
-#main_content_QTUM {
+#main_content_LOW {
   padding-top: 1px;
-  background: url('../images/blockchain.jpeg')
+  background: #003d99;
+  /*background: url('../images/blockchain.jpeg')*/
 }
 
-#footer_wrap_QTUM {
+#footer_wrap_LOW {
   background: #000000;
 }
 
