@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.2" width="50.8mm" height="50.8mm" viewBox="0 0 5080 5080" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve">
+ <defs class="ClipPathGroup">
+  <clipPath id="presentation_clip_path" clipPathUnits="userSpaceOnUse">
+   <rect x="0" y="0" width="5080" height="5080"/>
+  </clipPath>
+  <clipPath id="presentation_clip_path_shrink" clipPathUnits="userSpaceOnUse">
+   <rect x="5" y="5" width="5070" height="5070"/>
+  </clipPath>
+ </defs>
+ <defs>
+  <font id="EmbeddedFont_1" horiz-adv-x="2048">
+   <font-face font-family="Liberation Sans embedded" units-per-em="2048" font-weight="normal" font-style="normal" ascent="1852" descent="423"/>
+   <missing-glyph horiz-adv-x="2048" d="M 0,0 L 2047,0 2047,2047 0,2047 0,0 Z"/>
+   <glyph unicode="W" horiz-adv-x="1932" d="M 1511,0 L 1283,0 1039,895 C 1023,951 1000,1051 969,1196 952,1119 937,1054 925,1002 913,950 822,616 652,0 L 424,0 9,1409 208,1409 461,514 C 491,402 519,287 544,168 560,241 579,321 600,408 621,495 713,828 877,1409 L 1060,1409 1305,532 C 1342,389 1372,267 1393,168 L 1402,203 C 1420,280 1435,342 1446,391 1457,439 1551,778 1727,1409 L 1926,1409 1511,0 Z"/>
+   <glyph unicode="O" horiz-adv-x="1430" d="M 1495,711 C 1495,564 1467,435 1411,324 1354,213 1273,128 1168,69 1063,10 938,-20 795,-20 650,-20 526,9 421,68 316,127 235,212 180,323 125,434 97,563 97,711 97,936 159,1113 282,1240 405,1367 577,1430 797,1430 940,1430 1065,1402 1170,1345 1275,1288 1356,1205 1412,1096 1467,987 1495,859 1495,711 Z M 1300,711 C 1300,886 1256,1024 1169,1124 1081,1224 957,1274 797,1274 636,1274 511,1225 423,1126 335,1027 291,889 291,711 291,534 336,394 425,291 514,187 637,135 795,135 958,135 1083,185 1170,286 1257,386 1300,528 1300,711 Z"/>
+   <glyph unicode="L" horiz-adv-x="927" d="M 168,0 L 168,1409 359,1409 359,156 1071,156 1071,0 168,0 Z"/>
+  </font>
+ </defs>
+ <defs class="TextShapeIndex">
+  <g ooo:slide="id1" ooo:id-list="id3 id4 id5"/>
+ </defs>
+ <defs class="EmbeddedBulletChars">
+  <g id="bullet-char-template-57356" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 580,1141 L 1163,571 580,0 -4,571 580,1141 Z"/>
+  </g>
+  <g id="bullet-char-template-57354" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 8,1128 L 1137,1128 1137,0 8,0 8,1128 Z"/>
+  </g>
+  <g id="bullet-char-template-10146" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 174,0 L 602,739 174,1481 1456,739 174,0 Z M 1358,739 L 309,1346 659,739 1358,739 Z"/>
+  </g>
+  <g id="bullet-char-template-10132" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 2015,739 L 1276,0 717,0 1260,543 174,543 174,936 1260,936 717,1481 1274,1481 2015,739 Z"/>
+  </g>
+  <g id="bullet-char-template-10007" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 0,-2 C -7,14 -16,27 -25,37 L 356,567 C 262,823 215,952 215,954 215,979 228,992 255,992 264,992 276,990 289,987 310,991 331,999 354,1012 L 381,999 492,748 772,1049 836,1024 860,1049 C 881,1039 901,1025 922,1006 886,937 835,863 770,784 769,783 710,716 594,584 L 774,223 C 774,196 753,168 711,139 L 727,119 C 717,90 699,76 672,76 641,76 570,178 457,381 L 164,-76 C 142,-110 111,-127 72,-127 30,-127 9,-110 8,-76 1,-67 -2,-52 -2,-32 -2,-23 -1,-13 0,-2 Z"/>
+  </g>
+  <g id="bullet-char-template-10004" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 285,-33 C 182,-33 111,30 74,156 52,228 41,333 41,471 41,549 55,616 82,672 116,743 169,778 240,778 293,778 328,747 346,684 L 369,508 C 377,444 397,411 428,410 L 1163,1116 C 1174,1127 1196,1133 1229,1133 1271,1133 1292,1118 1292,1087 L 1292,965 C 1292,929 1282,901 1262,881 L 442,47 C 390,-6 338,-33 285,-33 Z"/>
+  </g>
+  <g id="bullet-char-template-9679" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 813,0 C 632,0 489,54 383,161 276,268 223,411 223,592 223,773 276,916 383,1023 489,1130 632,1184 813,1184 992,1184 1136,1130 1245,1023 1353,916 1407,772 1407,592 1407,412 1353,268 1245,161 1136,54 992,0 813,0 Z"/>
+  </g>
+  <g id="bullet-char-template-8226" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 346,457 C 273,457 209,483 155,535 101,586 74,649 74,723 74,796 101,859 155,911 209,963 273,989 346,989 419,989 480,963 531,910 582,859 608,796 608,723 608,648 583,586 532,535 482,483 420,457 346,457 Z"/>
+  </g>
+  <g id="bullet-char-template-8211" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M -4,459 L 1135,459 1135,606 -4,606 -4,459 Z"/>
+  </g>
+  <g id="bullet-char-template-61548" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 173,740 C 173,903 231,1043 346,1159 462,1274 601,1332 765,1332 928,1332 1067,1274 1183,1159 1299,1043 1357,903 1357,740 1357,577 1299,437 1183,322 1067,206 928,148 765,148 601,148 462,206 346,322 231,437 173,577 173,740 Z"/>
+  </g>
+ </defs>
+ <defs class="TextEmbeddedBitmaps"/>
+ <g>
+  <g id="id2" class="Master_Slide">
+   <g id="bg-id2" class="Background"/>
+   <g id="bo-id2" class="BackgroundObjects"/>
+  </g>
+ </g>
+ <g class="SlideGroup">
+  <g>
+   <g id="container-id1">
+    <g id="id1" class="Slide" clip-path="url(#presentation_clip_path)">
+     <g class="Page">
+      <g class="Graphic">
+       <g>
+        <rect class="BoundingBox" stroke="none" fill="none" x="8320" y="12670" width="4360" height="4360"/>
+        <image x="8320" y="12670" width="4360" height="4360" preserveAspectRatio="none" xlink:href="data:image/png;base64,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"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.TextShape">
+       <g id="id3">
+        <rect class="BoundingBox" stroke="none" fill="none" x="451" y="1024" width="1679" height="2619"/>
+        <text class="TextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="2117px" font-weight="400"><tspan class="TextPosition" x="701" y="3067"><tspan fill="rgb(255,255,255)" stroke="none">L</tspan></tspan></tspan></text>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.TextShape">
+       <g id="id4">
+        <rect class="BoundingBox" stroke="none" fill="none" x="1189" y="489" width="2465" height="2619"/>
+        <text class="TextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="2117px" font-weight="400"><tspan class="TextPosition" x="1439" y="2532"><tspan fill="rgb(255,255,255)" stroke="none">O</tspan></tspan></tspan></text>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.TextShape">
+       <g id="id5">
+        <rect class="BoundingBox" stroke="none" fill="none" x="2013" y="1913" width="2260" height="2619"/>
+        <text class="TextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="2117px" font-weight="400"><tspan class="TextPosition" x="2263" y="3956"><tspan fill="rgb(255,255,255)" stroke="none">W</tspan></tspan></tspan></text>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
