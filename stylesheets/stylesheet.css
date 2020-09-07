@@ -352,8 +352,8 @@ Full-Width Styles
 
 #header_wrap_LOW .inner {
   padding: 50px 10px 30px 10px;
-  background: #000000;
-  /*background: url('../images/blockchain.jpeg')*/
+  /*background: #000000;*/
+  background: url('../images/water.jpg')
 }
 
 #header_wrap_LOW .outer {
