@@ -164,7 +164,7 @@ footer p {
 
 a {
   text-decoration: none;
-  font-size: 24px;
+  /*font-size: 24px;*/
   color: #fff;
   	-webkit-linear-gradient(transparent, #51aaff 19%, transparent 19%, #fff0);
 	background:
