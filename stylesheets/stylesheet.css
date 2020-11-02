@@ -444,6 +444,16 @@ Full-Width Styles
   padding-top: 1px;
   background: url('../images/tausta.jpg')
 }
+#main_content_2 {
+  padding-top: 1px;
+  background: #003d99;
+  /*background: url('../images/blockchain.jpeg')*/
+}
+#main_content_3 {
+  padding-top: 1px;
+  background: #0052cc;
+  /*background: url('../images/blockchain.jpeg')*/
+}
 
 #footer_wrap {
   background: #000000;
