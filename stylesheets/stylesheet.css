@@ -343,7 +343,7 @@ Full-Width Styles
 
 #header_wrap .inner {
   padding: 50px 10px 30px 10px;
-  background: url('../images/maisema2.jpg')
+  background: url('../images/maisema2.jpg');
 }
 
 #header_wrap_LOW {
@@ -446,12 +446,12 @@ Full-Width Styles
 }
 #main_content_2 {
   padding-top: 1px;
-  background: #ff99ff;
+  background: #ff33cc;
   /*background: url('../images/blockchain.jpeg')*/
 }
 #main_content_3 {
   padding-top: 1px;
-  background: #ffccff;
+  background: #ff66cc;
   /*background: url('../images/blockchain.jpeg')*/
 }
 
