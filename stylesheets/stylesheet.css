@@ -465,7 +465,7 @@ Full-Width Styles
 }
 #main_content_2 {
   padding-top: 1px;
-  background: #ff33cc;
+  background: #ff33bb;
   /*background: url('../images/blockchain.jpeg')*/
 }
 #main_content_3 {
@@ -526,7 +526,7 @@ Full-Width Styles
 .center2{
   display: block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;background: url('../images/water.jpg')
   width: 25%;
   height: 25%;
 }
@@ -604,12 +604,12 @@ Full-Width Styles
 	flex:0 0 11%;
 	vertical-align: top;
 	/*margin: 10px/*2em*/
-	min-width: 500px;
-	height: 300px;
+	min-width: 740px;
+	height: 250px;
 	transform: scale(.95);
 	transition: all ease .3s;
 	transition-delay: .2s;
-	background:#fff0;
+	background: #ff33bb;
 }
 .feature p2 {
 	transition: all ease .4s;
@@ -626,7 +626,7 @@ Full-Width Styles
 }
 .feature img {
 	width: 100%;
-	max-width: 500px;
+	max-width: 740px;
 	filter: grayscale(1);
 	transition: all ease 1s;
 	transition-delay: .5s;
@@ -635,7 +635,7 @@ Full-Width Styles
 	filter: grayscale(0);
 }
 .feature p {
-	max-width: 500px;
+	max-width: 740px;
 	font-size: 19px/*1.1em*/;
 	color: #fff;
 	transition: all ease 1s;
