@@ -111,26 +111,26 @@ h3 {
 	margin: 15px auto 10px auto;
 	transition: filter .2s;
 
-     background:
+    /* background:
                -webkit-linear-gradient(transparent, #f2f2f2 19%, transparent 19%, #fff);
 	background:
 		-o-linear-gradient(transparent, #f2f2f2 19%, transparent 19%, #fff);
 	background:
 		linear-gradient(transparent, #f2f2f2 19%, transparent 19%, #fff);
 	background-position: 0 65px;1.825em;
-	background-repeat: no-repeat; 
+	background-repeat: no-repeat; */
 	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
 
 }
 
-h3::before {
+/*h3::before {
 	display: block;
 	content: " ";
-	margin-top: 5px;/*0.5em;*/
-	height: 45px;/*1.2em;*/
+	margin-top: 5px;
+	height: 45px;
 	visibility: hidden;
 	pointer-events: none;
-}
+} */
 
 h4 {
   font-size: 21px;
@@ -152,8 +152,8 @@ p {
 }
 p2 {
   text-align: center;
-  font-size: 26px;
-  margin: 10px 0 15px 0;
+  font-size: 24px;
+  margin: 5px 0 5px 0;
   color: #fff;
   text-shadow: -2px 0 #000000, 0 0 6px #fff, 0 0 6px #fff;
 }
@@ -164,7 +164,7 @@ footer p {
 
 a {
   text-decoration: none;
-  /*font-size: 24px;*/
+  font-size: 24px;
   color: #fff;
   	-webkit-linear-gradient(transparent, #51aaff 19%, transparent 19%, #fff0);
 	background:
@@ -307,6 +307,8 @@ td {
 form {
   background: #f2f2f2;
   padding: 20px;
+  padding-top: 1px;
+  background: #003d99;
 }
 
 /*******************************************************************************
@@ -320,7 +322,7 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 840px;
+  max-width: 940px;
   padding: 10px 10px;
   margin: 0 auto;
   
@@ -478,8 +480,8 @@ Full-Width Styles
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
-  height: 25%;
+  width: 50%;
+  height: 50%;
 }
 
 #main_content_wrap_LOW {
@@ -516,8 +518,8 @@ Full-Width Styles
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  height: 50%;
+  width: 25%;
+  height: 25%;
 }
 #technical_specs {
 	clear:both;
@@ -632,7 +634,7 @@ Full-Width Styles
 Small Device Styles
 *******************************************************************************/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
   body {
     font-size:14px;
   }
@@ -642,8 +644,8 @@ Small Device Styles
   }
 
   .inner {
-    min-width: 320px;
-    max-width: 480px;
+    min-width: 420px;
+    max-width: 580px;
   }
 
   #project_title {
@@ -659,7 +661,7 @@ Small Device Styles
   }
 
   h3 {
-    font-size: 21px;
+    font-size: 31px;
   }
 
   h4 {
