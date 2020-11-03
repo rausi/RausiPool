@@ -145,17 +145,32 @@ h6 {
 }
 
 p {
-  font-size: 18px;
-  margin: 10px 0 15px 0;
+  font-size: 20px;
+  margin: 5px 0 5px 0;
   color: #fff;
-  text-shadow: 0 0 2px #fff, 0 0 2px #000, 0 0 2px #000;
+  text-shadow: 0 0 2px #fff, 0 0 1px #000, 0 0 1px #000;
 }
 p2 {
   text-align: center;
   font-size: 24px;
-  margin: 5px 0 5px 0;
+  margin: 10px 0 10px 0;
   color: #fff;
   text-shadow: -2px 0 #000000, 0 0 6px #fff, 0 0 6px #fff;
+}
+
+p3 {
+  font-size: 20px;
+  color: #000;
+  text-shadow: 0 0 2px #000, 0 0 1px #000, 0 0 1px #000;
+}
+
+box1 {
+  background-color: lightgrey;
+  height: 200px;
+  width: 50%;
+  border: 5px solid green;
+  padding: 5px;
+  margin: 5px;
 }
 
 footer p {
@@ -164,7 +179,7 @@ footer p {
 
 a {
   text-decoration: none;
-  font-size: 24px;
+  font-size: 20px;
   color: #fff;
   	-webkit-linear-gradient(transparent, #51aaff 19%, transparent 19%, #fff0);
 	background:
@@ -377,7 +392,7 @@ Full-Width Styles
 #project_tagline {
   color: #cc0099;
   font-size: 34px;
-  font-weight: 400;
+  font-weight: 300;
   background: none;
   text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff
 }
@@ -588,7 +603,7 @@ Full-Width Styles
 	flex:0 0 11%;
 	vertical-align: top;
 	margin: 20px/*2em*/;
-	min-width: 300px;
+	min-width: 380px;
 	height: 300px;
 	transform: scale(.95);
 	transition: all ease .3s;
@@ -610,7 +625,7 @@ Full-Width Styles
 }
 .feature img {
 	width: 100%;
-	max-width: 296px;
+	max-width: 300px;
 	filter: grayscale(1);
 	transition: all ease 1s;
 	transition-delay: .5s;
