@@ -101,8 +101,8 @@ h2 {
 h3 {
   text-align: center;
 	font-size: 36px;
-	color:#0047b3;
-	font-weight: 650;
+	color:#cc0099;
+	/*font-weight: 550;*/
 	position: relative;
         font-style: italic;
 	font-variant: small-caps;
@@ -119,7 +119,7 @@ h3 {
 		linear-gradient(transparent, #f2f2f2 19%, transparent 19%, #fff);
 	background-position: 0 65px;1.825em;
 	background-repeat: no-repeat; */
-	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
+	text-shadow: 0 5px 5px #fff , 0 5px 5px #fff, 0 5px 5px #fff;
 
 }
 
@@ -148,7 +148,7 @@ p {
   font-size: 18px;
   margin: 10px 0 15px 0;
   color: #fff;
-  text-shadow: 0 0 2px #000, 0 0 2px #000, 0 0 2px #000;
+  text-shadow: 0 0 2px #fff, 0 0 2px #000, 0 0 2px #000;
 }
 p2 {
   text-align: center;
@@ -367,17 +367,17 @@ Full-Width Styles
 
 #project_title {
   margin: 0;
-  color: #0047b3;
+  color: #cc0099;
   font-size: 62px;
   font-weight: 700;
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff
+  text-shadow: 0 5px 10px #fff, 0 5px 10px #fff, 0 5px 10px #fff;
  /*text-shadow: #111 0px 0px 10px;*/
 }
 
 #project_tagline {
-  color: #fff;
+  color: #cc0099;
   font-size: 34px;
-  font-weight: 300;
+  font-weight: 200;
   background: none;
   text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff
 }
@@ -401,7 +401,7 @@ Full-Width Styles
 
 #languages {
   position: absolute;
-  width: 130px;
+  width: 170px;
   z-index: 10;
   bottom: -40px;
   right: 0;
@@ -541,11 +541,11 @@ Full-Width Styles
 	margin: 20px 20px/*1em 1em*/;
 }
 .specs tr:hover {
-	transform: scale(1.1);
+	transform: scale(1.05);
 	box-shadow: 0 0 16px 11px #c2d6d6;
         /*background:#ffffff !important;*/
 	font-weight: 900;
-        color: #000;
+        color: #fff;
         text-shadow: 0 0 2px #000, 0 0 5px #000, 0 0 5px #000;
 }
 
@@ -563,7 +563,7 @@ Full-Width Styles
 .specs td:nth-child(1) {
 	text-transform: uppercase;
 	text-align: left;
-        color: #000;
+        color: #fff;
         text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff;
 	width: 160px/*10em*/;
 }
