@@ -153,10 +153,10 @@ p {
 }
 p2 {
   text-align: center;
-  font-size: 24px;
+  font-size: 26px;
   margin: 10px 0 10px 0;
-  color: #fff;
-  text-shadow: -2px 0 #000000, 0 0 6px #fff, 0 0 6px #fff;
+  color: #cc0099;
+  text-shadow: -2px 0 #fff, 0 0 6px #fff, 0 0 6px #fff;
 }
 
 p3 {
@@ -270,7 +270,7 @@ ul, ol, dl {
 }
 
 ul {
-  list-style-position: inside;
+  list-style-position: i0 5px 5px #fff , 0 5px 5px #fff, 0 5px 5px #fff;nside;
   list-style: disc;
   padding-left: 20px;
 }
@@ -393,9 +393,9 @@ Full-Width Styles
 #project_tagline {
   color: #cc0099;
   font-size: 34px;
-  font-weight: 300;
+  font-weight: 520;
   background: none;
-  text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff
+  text-shadow: 0 5px 10px #fff, 0 5px 10px #fff, 0 5px 10px #fff;
 }
 
 #project_title_LOW {
@@ -603,7 +603,7 @@ Full-Width Styles
 .feature {
 	flex:0 0 11%;
 	vertical-align: top;
-	/*margin: 10px/*2em*/
+	margin: 10px/*2em*/;
 	min-width: 740px;
 	height: 250px;
 	transform: scale(.95);
@@ -636,7 +636,7 @@ Full-Width Styles
 }
 .feature p {
 	max-width: 740px;
-	font-size: 19px/*1.1em*/;
+	font-size: 20px/*1.1em*/;
 	color: #fff;
 	transition: all ease 1s;
 	transition-delay: .5s;
