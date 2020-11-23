@@ -115,6 +115,14 @@ p {
   padding: 5px;
 }
 
+id {
+  font-size: 18px;
+  color: #ffffff;
+  margin: 10px 0 10px 0;
+  padding: 5px;
+  word-wrap: break-word;
+}
+
 p3 {
   font-size: 20px;
   color: #cc0099;
@@ -253,6 +261,9 @@ footer {
     height: auto;
     }
   p {
+   font-size: 16px;
+  }  
+  id {
    font-size: 16px;
   }  
   p2 p3 {
