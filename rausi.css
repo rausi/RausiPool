@@ -200,7 +200,7 @@ footer {
 	transition: all ease .3s;
 	transition-delay: .2s;
 	background: #cc0099;
-	background-image: linear-gradient(#cc0099 , #ff4dd2);
+	background-image: linear-gradient(#ff00bf, #ff99e6);
 }
 .feature p2 {
 	transition: all ease .4s;
