@@ -243,16 +243,19 @@ footer {
 
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .column {
     width: 90%;
     height: auto;
     }
   p {
-   font-size: 18px;
+   font-size: 16px;
   }  
-  p2 {
-   font-size: 15px;
+  p2 p3 {
+   font-size: 16px;
+  }
+  li a {
+   font-size: 16px;
   }
   
   .feature {
@@ -263,10 +266,10 @@ footer {
 	height: 200px;
 	}
   .feature p {
-   font-size: 15px;
+   font-size: 16px;
   }  
   .feature p2 {
-   font-size: 15px;
+   font-size: 16px;
   }
   .feature:hover p2 {
 	color: #fff;
@@ -274,7 +277,11 @@ footer {
 	}
   .feature img {
 	width: 80%;
-	max-width: 450px;  
+	max-width: 450px;
+  }
+  #iframe {
+   width="300"
+   }  
 }
 
 @media screen and (max-width: 600px) {
