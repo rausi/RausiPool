@@ -241,10 +241,10 @@ footer {
         text-shadow: none;
 }
 
-iframe {
+/*iframe {
  max-width: 650px;
- min-width: 380px;
-}
+ min-width: 350px;
+}*/
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media screen and (max-width: 650px) {
@@ -290,8 +290,14 @@ iframe {
   width: 40%;
   height: 40%;
 } 
-
+iframe {
+ width: 100%;
+ /*max-width: 415px;
+ min-width: 300px;
+ height: 400px;*/
+ 
 }
+
 
 @media screen and (max-width: 650px) {
   .topnav a:not(:first-child) {display: none;}
