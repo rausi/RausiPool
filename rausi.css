@@ -194,7 +194,7 @@ footer {
 	flex:0 0 11%;
 	vertical-align: top;
 	margin: 10px/*2em*/;
-	min-width: 740px;
+	min-width: 550px;
 	height: 250px;
 	transform: scale(.95);
 	transition: all ease .3s;
@@ -220,7 +220,7 @@ footer {
 }
 .feature img {
 	width: 100%;
-	max-width: 740px;
+	/*max-width: 650px;*/
 	filter: grayscale(1);
 	transition: all ease 2s;
 	transition-delay: .5s;
@@ -229,7 +229,7 @@ footer {
 	filter: grayscale(0);
 }
 .feature p {
-	max-width: 740px;
+	/*max-width: 740px;*/
 	font-size: 20px;
 	color: #fff;
 	transition: all ease 1s;
@@ -241,9 +241,13 @@ footer {
         text-shadow: none;
 }
 
+iframe {
+ max-width: 650px;
+ min-width: 380px;
+}
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 650px) {
   .column {
     width: 90%;
     height: auto;
@@ -262,29 +266,34 @@ footer {
 	flex:0 0 11%;
 	vertical-align: top;
 	margin: 10px/*2em*/;
-	min-width: 450px;
-	height: 200px;
+	min-width: 300px;
+	height: 250px;
 	}
   .feature p {
-   font-size: 16px;
+   font-size: 15px;
   }  
   .feature p2 {
-   font-size: 16px;
+   font-size: 15px;
   }
   .feature:hover p2 {
 	color: #fff;
 	font-size: 16px;
 	}
   .feature img {
-	width: 80%;
-	max-width: 450px;
+	width: 100%;
+	/*max-width: 250px;*/
   }
-  #iframe {
-   width="300"
-   }  
+  .center3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 40%;
+} 
+
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 650px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -292,7 +301,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 650px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
