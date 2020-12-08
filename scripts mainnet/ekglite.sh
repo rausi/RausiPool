@@ -16,9 +16,9 @@
 ##############
 EKGPORT=12788 #use same port than set in config.json file
 EKGIP=127.0.0.1
-NODENAME="Relay1" #Your Relay or Block Producing node name
+NODENAME="RausiPool node" #Your Relay or Block Producing node name
 #Define status poll time in seconds. 30s or more is recommended because of stuck notifier.
-POLL_TIME="30s"
+POLL_TIME="1m"
 
 ###########
 #Functions
@@ -41,7 +41,7 @@ do
 ###Read block and kes status etc
 ###########################
  CURRETTIP=$(curl -sH "Accept: application/json" ${EKGIP}:${EKGPORT} |  jq '.cardano.node.ChainDB.metrics.blockNum.int | .val')
- UPTIME=$(curl -sH "Accept: application/json" ${EKGIP}:${EKGPORT} |  jq '.cardano.node.metrics.upTime.ns | .val')
+ UPTIME=$(curl -sH "Accept: application/json" ${EKGIP}:${EKGPORT} |  jq '.rts.gc.wall_ms | .val')
  SLOT=$(curl -sH "Accept: application/json" ${EKGIP}:${EKGPORT} |  jq '.cardano.node.ChainDB.metrics.slotNum.int | .val')
  EPOCH=$(curl -sH "Accept: application/json" ${EKGIP}:${EKGPORT} |  jq '.cardano.node.ChainDB.metrics.epoch.int | .val')
  TXS=$(curl -sH "Accept: application/json" ${EKGIP}:${EKGPORT} |  jq '.cardano.node.metrics.txsProcessedNum.int | .val')
@@ -50,8 +50,9 @@ do
  KES=$(curl -sH "Accept: application/json" ${EKGIP}:${EKGPORT} |  jq '.cardano.node.Forge.metrics.currentKESPeriod.int | .val')
  REMAININGKES=$(curl -sH "Accept: application/json" ${EKGIP}:${EKGPORT} |  jq '.cardano.node.Forge.metrics.remainingKESPeriods.int | .val') 
  BLOCKS=$(curl -sH "Accept: application/json" ${EKGIP}:${EKGPORT} |  jq '.cardano.node.metrics.Forge.forged.int | .val')
- UPTIME=$((UPTIME/1000000000/60/60))
-
+ UPTIME=$(echo "scale=2;${UPTIME}/1000/60/60" | bc)
+###display block and kes status etc
+###########################
  echo "*********************  EKGLite  ******************************"
  echo "--------------------------------------------------------------"
  echo "* $NODENAME status. Poll No.time " $i
@@ -76,7 +77,7 @@ do
   if [ "$CURRETTIP" = "$LAST_BLOCK" ] ; then
    echo "* $NODENAME Old block height: ${LAST_BLOCK}"
    echo "* $NODENAME New block height: ${CURRETTIP}"
-   echo -e "\e[31m!!!!$NODENAME NODE Stuck Stuck.!!!!!\e[0m"
+   echo -e "\e[31m!!!!$NODENAME Stuck Stuck.!!!!!\e[0m"
   fi   
   if [ "$CURRETTIP" \> "$LAST_BLOCK" ] ; then
    echo "* $NODENAME Old block height: ${LAST_BLOCK}"
