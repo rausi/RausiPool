@@ -102,10 +102,28 @@ body {
 }  
 .center3{
   display: block;
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
   width: 23%;
   height: 23%;
+} 
+
+.center4{
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  height: 10%;
+}  
+.center5{
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 13%;
+  height: 13%;
 } 
 
 p {
@@ -164,13 +182,20 @@ header {
 .column {
   margin-left: 5px;
   margin-right: 5px;
+  margin: 10px;
   /*float:left;*/
-  width: 35%;
+  width: 50%;
   /*height: 300px; /* only for demonstration, should be removed */
-  background-color: #000;
-  background-image: linear-gradient(#000000 , #1a1a1a);
+  background-color: #cc0099;
+  background-image: linear-gradient(#ff00bf, #ff99e6);
   padding: 5px;
   display:inline-block;
+  border-radius: 15px 50px;
+}
+.column:hover {
+	transform: scale(1.1);
+	box-shadow: 0 0 16px 32px/*1em 1.5em*/ #c2d6d6;
+	/*background: #fff;*/
 }
 /* Clear floats after the columns */
 .row:after {
@@ -257,13 +282,10 @@ footer {
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media screen and (max-width: 650px) {
   .column {
-    width: 90%;
+    width: 60%;
     height: auto;
     }
   p {
-   font-size: 16px;
-  }  
-  id {
    font-size: 16px;
   }  
   p2 p3 {
