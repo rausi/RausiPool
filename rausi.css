@@ -294,6 +294,9 @@ footer {
   li a {
    font-size: 16px;
   }
+id {
+   font-size: 16px;
+  }  	
   
   .feature {
 	flex:0 0 11%;
